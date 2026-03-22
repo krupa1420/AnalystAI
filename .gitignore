@@ -1,13 +1,18 @@
 
-# Large files
+# Large data files
 data/
 models/
 cache/
 database/bikeshare_2024.sqlite
 database/trips.csv
 database/weather.csv
-*.sqlite
+database/stations.csv
+
+# Archives
 *.zip
+*.tar.gz
+
+# Model files
 *.pt
 *.safetensors
 *.bin
@@ -15,5 +20,10 @@ database/weather.csv
 # Python
 __pycache__/
 *.pyc
+*.pyo
 .ipynb_checkpoints/
 unsloth_compiled_cache/
+
+# System
+.DS_Store
+*.log
