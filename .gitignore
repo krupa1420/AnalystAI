@@ -1,0 +1,19 @@
+
+# Large files
+data/
+models/
+cache/
+database/bikeshare_2024.sqlite
+database/trips.csv
+database/weather.csv
+*.sqlite
+*.zip
+*.pt
+*.safetensors
+*.bin
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+unsloth_compiled_cache/
